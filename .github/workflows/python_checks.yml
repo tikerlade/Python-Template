@@ -1,0 +1,20 @@
+name: Python checks
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  heroku-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+      - name: Running checks
+        run: |
+          # Install dependencies & run checks from pre-commit
+          ./setup.sh
