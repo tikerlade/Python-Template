@@ -1,4 +1,4 @@
-[![Heroku deployment Status](https://github.com/tikerlade/Python-Template/workflows/Heroku%20deploy/badge.svg)](https://github.com/tikerlade/Python-Template/actions/)
+[![Heroku deployment Status](https://github.com/tikerlade/Python-Template/workflows/Heroku%20deploy/badge.svg)](https://python-template-application.herokuapp.com/)
 [![Python checks Status](https://github.com/tikerlade/Python-Template/workflows/Python%20checks/badge.svg)](https://github.com/tikerlade/Python-Template/actions/)
 
 # Python :snake: template project
