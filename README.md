@@ -45,4 +45,10 @@ If you want to add badges about GitHub actions that have been passed / failed to
 - `setup.cfg` - configuration of tools which will be used in pre-commit and other tools installed from requirements.txt
 
 ## Technologies :floppy_disk:
-Comming soon
+- Heroku
+- GitHub Actions CI
+- pre-commit
+  - mypy
+  - flake8
+  - pytest
+  - isort
